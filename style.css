@@ -1,0 +1,231 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+/* Estilos de la tarjeta */
+.card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px;
+    float: left;
+    transition: all .5s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    border-color: #3498db;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    min-height: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #3498db;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #2c3e50;
+}
+
+.card .btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #e74c3c;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color .3s ease;
+}
+
+.card .btn:hover {
+    background-color: #c0392b;
+}
+
+/* Buscador */
+#buscar {
+    width: 80vw;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px 0;
+    font-size: 1em;
+    transition: background-color .3s ease;
+}
+
+#buscar:focus {
+    background-color: #dceefb;
+    outline: none;
+}
+
+/* Fieldset */
+fieldset {
+    text-align: center;
+    border: none;
+}
+
+/* Contenedor de tarjetas */
+#contenedor_cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+/* Página de información */
+.container_info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container_info img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.column {
+    width: 50%;
+    padding: 20px;
+}
+
+/* Otros estilos */
+input:focus {
+    background-color: lightblue;
+    border-color: #3498db;
+    outline: none;
+}/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+/* Estilos de la tarjeta */
+.card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px;
+    float: left;
+    transition: all .5s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    border-color: #3498db;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    min-height: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #3498db;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #2c3e50;
+}
+
+.card .btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #e74c3c;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color .3s ease;
+}
+
+.card .btn:hover {
+    background-color: #c0392b;
+}
+
+/* Buscador */
+#buscar {
+    width: 80vw;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px 0;
+    font-size: 1em;
+    transition: background-color .3s ease;
+}
+
+#buscar:focus {
+    background-color: #dceefb;
+    outline: none;
+}
+
+/* Fieldset */
+fieldset {
+    text-align: center;
+    border: none;
+}
+
+/* Contenedor de tarjetas */
+#contenedor_cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+/* Página de información */
+.container_info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container_info img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.column {
+    width: 50%;
+    padding: 20px;
+}
+
+/* Otros estilos */
+input:focus {
+    background-color: lightblue;
+    border-color: #3498db;
+    outline: none;
+}
